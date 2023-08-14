@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useJsonFetch from './hooks/useJsonFetch';
-import Loader from './Loader/Loader';
+import Loader from './Loader/loader';
 
 function App() {
   const [url, setURL] = useState<string>('http://localhost:7070/data');
